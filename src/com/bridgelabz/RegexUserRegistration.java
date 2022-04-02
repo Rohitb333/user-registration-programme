@@ -12,5 +12,6 @@ package com.bridgelabz;
 
             UserInfo userInfo = new UserInfo();
             userInfo.userFirstName();
+            userInfo.userLastName();
         }
 }
