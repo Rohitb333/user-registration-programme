@@ -15,5 +15,7 @@ package com.bridgelabz;
             userInfo.userLastName();
             userInfo.userEmailId();
             userInfo.userPhoneNumber();
+            userInfo.userPassward();
+
         }
 }

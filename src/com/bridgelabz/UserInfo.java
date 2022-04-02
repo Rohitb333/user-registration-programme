@@ -74,5 +74,20 @@ public class UserInfo {
             System.out.println("Please enter correct phone number");
         }
     }
+    /*
+    Added Passward Method To Check Passward Method
+     */
+    public void userPassward(){
+        System.out.println("Enter Passward");
+        String passward = scanner.next();
+        boolean result = Pattern.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$",passward);
+
+        if (result) {
+            System.out.println("Correct");
+        }
+        else {
+            System.out.println("Please enter correct Passward");
+        }
+    }
 
 }
